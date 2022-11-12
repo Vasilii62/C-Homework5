@@ -30,9 +30,30 @@ Console.WriteLine("The answer is: " + exponentiation);*/
 
 9012 -> 12*/
 
-Console.WriteLine("Enter the number A: ");
+/*Console.WriteLine("Enter the number A: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 int SumOfDigit(int numberA)
 {
-    
+  int count = Convert.ToString(numberA).Length;
+  int j = 0;
+  int result = 0;
+
+  for (int i = 0; i < count; i++)
+  {
+    j = numberA - numberA % 10;
+    result = result + (numberA - j);
+    numberA = numberA / 10;
+  }  
+  return result;
 } 
+
+int sumOfDigit = SumOfDigit(numberA);
+Console.WriteLine("The sum of the digits in the number is: " + sumOfDigit);*/
+
+// Задача 29: Напишите программу, которая создает массив заданного пользователем размера, заполняет массив элементами от 1 до 99 и выводит их на экран.
+
+/*1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+
+6, 1, 33 -> [6, 1, 33]*/
+
+
