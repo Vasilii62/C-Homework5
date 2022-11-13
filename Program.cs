@@ -56,7 +56,7 @@ Console.WriteLine("The sum of the digits in the number is: " + sumOfDigit);*/
 
 6, 1, 33 -> [6, 1, 33]*/
 
-Console.Write("Enter the number of array elements: ");
+Console.Write("Enter the number of array elements from 1 to 99: ");
 int elementsCount = int.Parse(Console.ReadLine());
 int[] myArray = new int[elementsCount];
 
