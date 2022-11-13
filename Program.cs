@@ -56,13 +56,13 @@ Console.WriteLine("The sum of the digits in the number is: " + sumOfDigit);*/
 
 6, 1, 33 -> [6, 1, 33]*/
 
-Console.Write("Enter the number of array elements:\t");
+Console.Write("Enter the number of array elements: ");
 int elementsCount = int.Parse(Console.ReadLine());
 int[] myArray = new int[elementsCount];
 
 for (int i = 0; i < myArray.Length; i++)
 {
-    Console.Write($"Enter an array element below the index {i}:\t");
+    Console.Write($"Enter an array element below the index {i}: ");
     myArray[i] = int.Parse(Console.ReadLine());
 }
 
